@@ -1,0 +1,96 @@
+:root {
+  font-family: sans-serif;
+  color-scheme: light dark;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50px;
+  padding: .5rem;
+  margin-bottom: 1rem;
+
+  background: rgb(17, 17, 17);
+  border-bottom: 3px solid rgb(21, 21, 21);
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.content { 
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin-bottom: 1.2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.content-poster {
+  max-width: 350px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  object-fit: cover;
+}
+
+p, span {
+  font-size: 1.2rem;
+  margin-bottom: .9rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+hr {
+  border: none;
+  border-bottom: 3px solid rgb(34, 34, 34);
+  margin: 1rem auto;
+}
+
+/*Footer*/
+blockquote {
+  font-size: 1.1rem;
+  padding: 1.5rem;
+  background-color: rgb(17, 17, 17);
+  border-left: 5px solid rgb(34, 34, 34);
+  margin-bottom: 1.2rem;
+}
+
+a {
+  color: rgb(0, 112, 243)
+}
+
+a:hover {
+  color: rgba(0, 112, 243, .9);
+}
